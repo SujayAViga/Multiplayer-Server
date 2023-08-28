@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
