@@ -44,7 +44,7 @@ wss.on('connection', ws => {
         });
       }
       else if(msg=="transforms"){
-        console.log(`Received: ${JSON.parse(message).header.type}`);
+        // console.log(`Received: ${JSON.parse(message).header.type}`);
         // check the uid and sent this to the client with same uid.
         // will not be accepted by main unity client
         // Iterate through connected clients and send the message to each client
